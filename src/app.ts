@@ -1,7 +1,7 @@
 import express from "express";
 import type { Application, NextFunction, Request, Response } from "express";
 import cors from "cors";
-import videoRoutes from "./routes/video.routes.ts";
+import videoRoutes from "./routes/video.routes.js";
 
 const app: Application = express();
 
